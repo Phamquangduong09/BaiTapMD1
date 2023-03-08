@@ -8,6 +8,9 @@ if (From === "USD" && To === "VND") {
 } else if (From === "VND" && To === "USD") {
     ketqua = Amount / 23000
 }
+else if (From===To){
+    ketqua=Amount+From
+}
 document.getElementById("ketqua").innerHTML = ketqua
 }
 
