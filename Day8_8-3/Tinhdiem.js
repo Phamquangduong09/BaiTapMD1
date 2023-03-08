@@ -1,6 +1,6 @@
-inputphysic = prompt("Enter the physic");
-inputchemmitry = prompt("Enter the chemmitry");
-inputbiology = prompt("Enter the biology");
+let inputphysic = prompt("Enter the physic");
+let inputchemmitry = prompt("Enter the chemmitry");
+let inputbiology = prompt("Enter the biology");
 let physic = parseInt(inputphysic);
 let chemmitry = parseInt(inputchemmitry);
 let biology = parseInt(inputbiology);
