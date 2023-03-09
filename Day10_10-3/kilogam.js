@@ -1,14 +1,13 @@
 function bmi() {
     let kilogam = document.getElementById("kilogam").value;
     let met = document.getElementById("met").value;
-    let bmi = "kilogam" / ("met" * "met");
-    let ketqua;
+    let bmi = kilogam / (met * met);
     if (bmi < 18)
-        document.write("Underweight");
+        alert("Underweight");
     else if (bmi < 25.0)
-        document.write("Normal");
+        alert("Normal");
     else if (bmi < 30.0)
-        document.write("Overweight");
+       alert("Overweight");
     else
-        document.write("Obese");
+        alert("Obese");
 }
