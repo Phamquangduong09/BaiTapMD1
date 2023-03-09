@@ -5,6 +5,6 @@ function ketqua() {
     let tru=number1-number2 ;
     let nhan=number1*number2 ;
     let chia=number1/number2 ;
-  //  document.getElementById("ketqua").innerHTML = number1 + "+" + number2 + " = " +cong;
-    alert("")
+document.getElementById("ketqua").innerHTML = number1 + "+" + number2 + " = " +cong;
+
 }
