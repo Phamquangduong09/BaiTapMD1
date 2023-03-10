@@ -1,4 +1,4 @@
-function cal() {
+function Push() {
     let a = +document.getElementById("number1").value;
     let b = +document.getElementById("number2").value;
     let tong = ((b-a+1) * (a+b)) / 2;
