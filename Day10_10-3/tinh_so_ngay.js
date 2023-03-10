@@ -1,6 +1,5 @@
 function tinhngay(){
     let month = +document.getElementById("month").value;
-    console.log(month)
     switch (month) {
         case 1:
             alert("tháng có 31 ngày");
