@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính Giá Điện</title>
+</head>
+<body>
+<input type="number" id="number">
+<button onclick="A()">Tính</button>
+</body>
+</html>
+<script>
+    function A (){
+        let n = document.getElementById("number").value ;
+        let S
+        if ( n < 50 ){
+            S = (n * 1.678)
+        }else if (50 < n < 75){
+            S = (50*1.678)+ ((n - 50)*1.734)
+        }else if ( 75 < n < 100){
+            S = (50*1.678)+((n-50)*1.734)+((n-75)*2.014)
+        }else if (100 < n < 125){
+            S = (50*1.678)+((n-50)*1.734)+((n-75)*2.014)+((n-100)*2.114)
+        }
+ alert( " Số tiền điện là :" + S + "VND" )
+    }
+</script>
