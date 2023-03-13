@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Số Nguyên Tố</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let number = prompt("nhap vao")
+    let i
+    let j = true
+    for (i = 2; i < number; i++) {
+        if (number % i === 0) {
+            j = false;
+            break;
+        }
+
+    }
+    if (j) {
+        alert("la so nguyen to")
+
+    } else {
+        alert("khong phai la so nguyen to")
+    }
+</script>
