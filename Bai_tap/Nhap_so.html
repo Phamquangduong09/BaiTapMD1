@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhap so</title>
+</head>
+<body>
+<input type="number" id="number">
+<button onclick="numBer()">Tinh</button>
+<p id="result"></p>
+</body>
+</html>
+<script>
+    function numBer() {
+        let number = document.getElementById("number").value
+        do {
+            if (number < 0) {
+                break;
+            } else if (number % 2 === 0) {
+                document.getElementById("result").innerHTML += " xinchao"
+                break;
+            } else if (!number % 2 === 0) {
+                document.getElementById("number").value
+            }
+        }
+        while (number > 0)
+    }
+</script>
